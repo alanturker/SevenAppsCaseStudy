@@ -9,7 +9,7 @@ import UIKit
 
 class EmptyStateView: UIView {
     
-    private let messageLabel: UILabel = {
+    private lazy var messageLabel: UILabel = {
         let label = UILabel()
         label.textColor = .gray
         label.textAlignment = .center

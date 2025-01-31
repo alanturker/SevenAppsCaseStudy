@@ -11,7 +11,7 @@ final class UserViewController: UIViewController {
     
     private var viewModel: UserViewModelProtocol?
     
-    lazy var tableView: UITableView = {
+    private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.delegate = self
         tableView.dataSource = self
